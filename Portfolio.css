@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.contact, .projects, .resume {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2, .projects h2, .resume h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.s2{
+    padding-top: 6pt;
+    text-indent: 0pt;
+    text-align: left;
+    margin: 5px;
+}
+.s1{
+    padding-top: 8pt;
+    text-indent: 0pt;
+    text-align: left;
+    margin: 5px;
+}
+.mySlides {display:none;}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+    
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+    
+    .contact, .projects, .resume {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .contact h2, .projects h2, .resume h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .project h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
